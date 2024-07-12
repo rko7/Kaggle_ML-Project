@@ -57,9 +57,9 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset<br>
 # Kaggle_ML Project #4 Car Price Prediction
 
 **Overview**:<br>
-This project aims to develop a Support Vector Machine (SVM) model to predict diabetes using patient medical information, such as blood glucose levels, insulin levels, and BMI. By preprocessing and standardizing the data, and then training the SVM classifier, we can accurately classify patients as diabetic or non-diabetic. This model will help in early detection and management of diabetes based on medical data.<br>
+Our project aims to predict the prices of used cars based on various features such as Car Brand, Model Year, Selling Price, Present Price, Kilometers Driven, Fuel Type, Seller Type, Transmission Type, and Number of Owners. By analyzing this dataset, we will train a machine learning model to identify patterns and relationships between these factors and the car prices. The trained model will be able to predict the selling price of a used car when provided with new data. This will help in accurately estimating the value of used cars in the market.<br>
 <br>
-We will train our model using diabetes data and their respective labels (diabetic or non-diabetic). First, we preprocess the data by standardizing it to ensure all medical information is in the same range. Next, we split the data into training and testing sets to evaluate our model's performance. We will then train a Support Vector Machine (SVM) classifier on the training data to distinguish between diabetic and non-diabetic patients. Once trained, the SVM model can predict whether new patients are diabetic or non-diabetic based on their medical information.
+We will begin by collecting the car data necessary for our machine learning model. After obtaining the dataset, we will preprocess it to make it suitable for the algorithm, ensuring the data is clean and standardized. Next, we will split the data into training and testing sets to train our model and evaluate its performance. We will use two regression models, Linear Regression and Lasso Regression, to train the model and compare their accuracy. Once trained, the model will predict car prices based on new data inputs. This process will enable us to predict the selling prices of used cars effectively
 <br><br>
 **Required Model:**<br>
 The required modules for this project are –<br>
