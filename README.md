@@ -88,4 +88,22 @@ Matplotlib – pip install matplotlib<br>
 SkLearn – pip install sklearn<br>
 <br>
 **Dataset used:**<br>
-https://www.kaggle.com/datasets/mirichoi0218/insurance
+https://www.kaggle.com/datasets/mirichoi0218/insurance<br>
+<br>
+
+# Kaggle_ML Project #7 Heart Disease Prediction: Comparing FLD and RF Models 
+**Overview**:<br>
+This project focuses on the development of a machine learning model to predict heart disease in individuals based on their medical data. The dataset used includes over a thousand labeled examples, which classify individuals into two categories: those with heart disease and those without. Our aim is to employ Fisher's Linear Discriminant (FLD) and Random Forest (RF) algorithms to analyze and predict heart disease effectively. By leveraging these techniques, we intend to enhance the accuracy of heart disease diagnostics, thereby aiding healthcare professionals in early detection and timely treatment.<br>
+<br>
+The process begins by preparing the dataset, which involves cleaning, encoding categorical variables, and splitting the data into training and testing sets. The FLD and RF models are then trained on the processed data. We evaluate these models based on several metrics including training and testing times, accuracy, and through confusion matrices that provide insights into the classification errors made by the models. The performance evaluation of these models involves comparing their predictive accuracies and the time they take to train and predict, enabling us to determine the most effective approach for heart disease prediction. This analytical method not only enhances our understanding of the predictive capabilities of each model but also supports the healthcare sector by providing a reliable decision-support tool for early disease diagnosis.
+<br><br>
+**Required Model:**<br>
+The required modules for this project are –<br>
+Numpy – pip install numpy<br>
+Pandas – pip install pandas<br>
+Seaborn – pip install seaborn<br>
+Matplotlib – pip install matplotlib<br>
+SkLearn – pip install sklearn<br>
+<br>
+**Dataset used:**<br>
+https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/data
